@@ -12,7 +12,7 @@ One to two paragraph statement about your product and what it does.
 ## Install Angular CLI on MacOs
 
 1. Install npm using package manager.
-2. The above step (sets the directory owner of /usr/local/lib/node_modules/ to root.
+2. The above step (Step 1) the directory owner of /usr/local/lib/node_modules/ to root.
 3. Execute below command to set the owner to your user:
 
 ```sh
