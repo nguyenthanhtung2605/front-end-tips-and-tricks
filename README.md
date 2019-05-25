@@ -1,4 +1,4 @@
-# Product Name
+# Front End Tips and Tricks
 > Short blurb about what your product does.
 
 [![NPM Version][npm-image]][npm-url]
@@ -9,18 +9,19 @@ One to two paragraph statement about your product and what it does.
 
 ![](header.png)
 
-## Installation
+## Install Angular CLI on MacOs
 
-OS X & Linux:
+1. Install npm using package manager.
+2. The above step (sets the directory owner of /usr/local/lib/node_modules/ to root.
+3. Execute below command to set the owner to your user:
 
 ```sh
-npm install my-crazy-module --save
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 ```
-
-Windows:
+4. Install Angular using the below command line (avoid using sudo): 
 
 ```sh
-edit autoexec.bat
+npm install -g @angular/cli 
 ```
 
 ## Usage example
